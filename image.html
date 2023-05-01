@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Image</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <style>
           input {
@@ -29,29 +29,24 @@
         <nav>
           <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Image.html">Пошук малюнків</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Advanced.html">Розширений пошук</a>
+              <a class="nav-link active" aria-current="page" href="Index.html">Пошук</a>
             </li>
           </ul>
           </nav>
           <div style = "text-align: center;">
-               <img src="googlelogo_color_272x92dp.png" alt="Google search" style="width:272px;height:92px;">
+               <img src="googlelogo_color_272x92image.png" alt="Google search" style="width:272px;height:92px;">
           </div>
           <ul>
             <form action="https://google.com/search" >
                 <P style = "margin: auto;  width: 50% ">
                   <input style = "border-radius: 25px" class="form-control" type="text" name="q">
+                  <input type = "hidden" name = "tbm" value = "isch">
                 </P>
                 
                 <p></p>
                 <div style = "text-align: center;">
-                  <button  style = "border-radius: 7px; border: 2px;" type="submit" value="Google Search">
-                          Google Пошук
-                  </button>
-                  <button  style = "border-radius: 7px; border: 2px" name = "btnI" type="submit" value="Im Feeling Lucky">
-                          Мені пощастить
+                  <button  style = "border-radius: 7px; border: 2px;" type="submit" value="Image Search">
+                          Пошук Малюнків
                   </button>
                 </div>
               </form>
